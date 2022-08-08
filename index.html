@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <!--css-->
         <link rel="stylesheet" href="style.css">
@@ -7,25 +8,31 @@
     </head>
 
     <BODY>
-        <canvas id="canvas1"> </canvas>
-       
-        <div class="controls">
-            <label for="animations"> choose Animation:</label>
-            <select id="animations" name="animation">
-                <option value="idle">idle</option>
-                <option value="jump">jump</option>
-                <option value="fall">fall</option>
-                <option value="run">run</option>
-                <option value="dizzy">dizzy</option>
-                <option value="sit">sit</option>
-                <option value="roll">roll</option>
-                <option value="ko">ko</option>
-                <option value="getHit">getHit</option>
-            </select>
+        <div id="container">
+            <div class="controls">
+                <label id="label" for="animations"> choose Animation:</label>
+                <select id="animations" name="animation">
+                    <option value="idle">idle</option>
+                    <option value="jump">jump</option>
+                    <option value="fall">fall</option>
+                    <option value="run">run</option>
+                    <option value="dizzy">dizzy</option>
+                    <option value="sit">sit</option>
+                    <option value="roll">roll</option>
+                    <option value="ko">ko</option>
+                    <option value="getHit">getHit</option>
+                </select>
+            </div>
+            <canvas id="canvas1"> </canvas>
+            <p> Game speed:<span id='showGameSpeed'></span></p>
+            <input type="range" min="0" max="20" value="5" class = "slider" id="slider">
         </div>
+        
+       
+        
 
         <!--JS-->
-        <script src = "game.js"></script>
+        <script src = "script.js"></script>
     </BODY>
 
 

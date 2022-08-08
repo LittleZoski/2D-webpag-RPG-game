@@ -1,23 +1,39 @@
-#canvas1 { 
-    position: absolute;
+body {
+    background-color: black;
+}
+#container {
+    position:absolute;
+    width:800px;
     top:50%;
     left:50%;
-    transform: translate(-50%,-50%);
-    height:600px;
-    width:600px;
-    padding:20px;
-    margin:15pt;
-    border:5px solid black
+    transform: translate(-50%, -50%);
+    font-size: 25px
 }
-
+#canvas1 { 
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,0);
+    height:800px;
+    width:700px;  
+}
+#slider{
+    width:100%; 
+}
 .controls {
-    position: absolute;
+    position: relative;
     z-index:10;
-    top; 50px;
+    top: 3%;
     left: 50%;
     transform:translateX(-50%);
 }
-
 .controls,select,option {
     font-size:25px;
+}
+#label{
+    color:white;
+}
+
+p{
+    color:white;
 }

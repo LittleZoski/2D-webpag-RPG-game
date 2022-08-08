@@ -7,8 +7,8 @@ dropdown.addEventListener('change', function(e){
 const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext('2d');
 
-const canvas_width = canvas.width =600;
-const canvas_height = canvas.height = 600;
+const canvas_width = canvas.width =800;
+const canvas_height = canvas.height = 700;
 const playerImage = new Image();
 playerImage.src = "shadow_dog.png";
 const spriteWidth = 575;

@@ -1,6 +1,7 @@
 body {
     background-color: black;
 }
+
 #container {
     position:absolute;
     width:800px;
@@ -9,11 +10,12 @@ body {
     transform: translate(-50%, -50%);
     font-size: 25px
 }
+
 #canvas1 { 
     position: relative;
     top:50%;
     left:50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%,0%);
     height:800px;
     width:700px;  
 }
@@ -26,9 +28,12 @@ body {
     height:1000px;
     width:500px;  
     border: 5px solid white;
+    background: Blue;
 }
 
+
 #slider{
+    
     width:100%; 
 }
 .controls {

@@ -1,3 +1,5 @@
+/*collision detection */
+
 const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext('2d');
 
@@ -75,6 +77,7 @@ window.addEventListener('load', function(){
 });
 
 /**@type {HTMLCanvasElement} */
+
 const canvas2=document.getElementById('canvas2');
 const ctx2 = canvas2.getContext('2d');
 CANVAS2_WIDTH = canvas2.width = 500;
@@ -144,4 +147,10 @@ function animate2(){
     requestAnimationFrame(animate2);
 }
 animate2();
+
+
+
+
+
+
 
